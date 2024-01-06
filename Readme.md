@@ -23,6 +23,25 @@ void PassByReference(string &name) // the & symbol attaches the address of the o
 }
 
 when we are passing a array in the function NOTE: it will always go with reference which means the orginal value can also be changed
-
-
 but apart from that in verctors , hash and all we need to pass with reference with &symbol
+
+
+
+Time Complexicity:(dependent on system)
+  O(1) constant time complexity - it does not depend on size of input. It is best
+  Rate at which the time taken increase with respect to input size 
+
+  big-Oh Notation => o(==time taken==)
+  TC to be computed, worst case scenerio
+  avoid constants
+  avoid lower values 
+  
+
+  big -Oh(O) => worst case [upper bound]
+  theta 0 => Average Complexity 
+  Omega  => [lower bound]
+Space Complexcity: 
+  Auxaliary space (space that you take to solve the problem ) + Input Space (space that you take to store the input)
+
+  int a , int b (cin) => input space 
+  int c = a + b => auxiliary space (c);
