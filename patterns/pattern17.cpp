@@ -3,35 +3,47 @@ using namespace std;
 
 void printP(int n)
 {
-  for (int i = 0; i < n; i++)
+  for (int i = 1; i <= n; i++)
+
   {
-    // space
-    for (int j = 0; j < n - i - 1; j++)
+
+    char x = 'A';
+
+    for (int j = n - i; j > 0; j--)
+
     {
+
       cout << " ";
     }
 
-    // letter
+    for (int j = 1; j <= i; j++)
 
-    for (char ch = 'A'; ch < 'A' + (2 * i - 1); ch++)
     {
-      if (i % 2 == 0)
+
+      cout << x << " ";
+
+      if (j != i)
       {
-        cout << ch;
+        x += 1;
       }
     }
-    // space
-    for (int j = 0; j < n - i - 1; j++)
+
+    for (int j = 1; j <= i - 1; j++)
+
     {
-      cout << " ";
+
+      char y = x - j;
+
+      cout << y << " ";
     }
+
     cout << endl;
   }
 }
 
 int main()
 {
-  int n = 5;
+  int n = 3;
   printP(n);
   return 0;
 }
