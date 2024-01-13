@@ -1,59 +1,47 @@
 #include <bits/stdc++.h>
 using namespace std;
+// so the problem of finding gcd comes with the time complexity of the algorithm
 /*
-Problem statement
-You are given a number ’n’.
+for(int i =min(n1,n2);i>=1;i--){
+  if(n%i==0){
+    return i;
+    break;
+  }
+}
+ this solution works effeciently with the help of eculidean math but it does not have much affect in tc of the algorithm
 
+ for example gcd(52,10) will have lot of steps and operations
+ gcd(52,10) => (42,10) => (32,10) => (22,10) =>(12,10)=>(2,10) =>swap => (8,2) => (6,2) =>(4,2) =>(2,2) => (0,2)
 
+ so we can see that a lot of operations keeps following which affects the tc of the algo
 
-Find the number of digits of ‘n’ that evenly divide ‘n’.
+ in order to avoid this we can replace substraction of two numbers with modulo
 
-
-
-Note:
-A digit evenly divides ‘n’ if it leaves no remainder when dividing ‘n’.
-
-
-Example:
-Input: ‘n’ = 336
-
-Output: 3
-
-Explanation:
-336 is divisible by both ‘3’ and ‘6’. Since ‘3’ occurs twice it is counted two times.
+ ex : gcd(52,10) = gcd(52%10,10)
+gcd(2,10) => gcd(10%2,2) => gcd(0,2)
+so we can observe the number of steps its taking is much lesser
+tc => O(log(phie)(min(a,b)));
 */
-
-int countDigits(int n)
+void Gcd(int a, int b)
 {
-  int temp = n;
-  int count = 0;
-  while (n > 0)
+  while (a > 0 && b > 0)
   {
-    int rem = n % 10;
-    if (rem != 0 && temp % rem == 0)
+    if (a > b)
     {
-      count = count + 1;
+      a = a % b;
     }
-    n = n / 10;
+    else
+    {
+      b = b % a;
+    }
   }
-  return count;
-}
-
-void ReverseNum()
-{
-  int n;
-  cin >> n;
-  int rev = 0;
-  while (n > 0)
-  {
-    int ld = n % 10;
-    rev = (rev * 10) + ld;
-    n = n / 10;
-  }
-  cout << rev;
-}
+  if (a == 0)
+    cout << b << " ";
+  else
+    cout << a << " ";
+};
 int main()
 {
-  ReverseNum();
+  Gcd(52, 10);
   return 0;
 }

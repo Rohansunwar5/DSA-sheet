@@ -1,0 +1,1 @@
+when a function calls itself until a specified condition is met is called recursion.

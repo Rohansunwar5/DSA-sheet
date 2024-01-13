@@ -13,3 +13,7 @@ while (N > 0){
 }
 
 when the logic is depending on the division , then the tc becomes log
+
+all the factorscan be found in the sqrt(n)
+
+when this is a modulo operation going  on the tc will always include Log
