@@ -60,7 +60,10 @@
     "*.embeddedhtml": "html",
     "iostream": "cpp",
     "ostream": "cpp",
-    "ratio": "cpp"
+    "ratio": "cpp",
+    "chrono": "cpp",
+    "span": "cpp",
+    "type_traits": "cpp"
   },
   "C_Cpp.errorSquiggles": "disabled"
 }
