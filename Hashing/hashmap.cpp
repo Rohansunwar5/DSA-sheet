@@ -12,9 +12,9 @@ int main()
   {
     cin >> arr[i];
   }
-  pre computation
-      map<int, int>
-          mpp;
+  // pre computation
+  map<int, int>
+      mpp;
   for (int i = 0; i < n; i++)
   {
     mpp[arr[i]] += 1;

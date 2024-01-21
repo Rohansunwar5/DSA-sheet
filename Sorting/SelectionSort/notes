@@ -1,0 +1,91 @@
+00:03 📚 Overview of the DSA Course
+
+The Strivers A to Z DSA course is introduced as India's most comprehensive course with 456 modules.
+
+Emphasis on the significance of the course for those preparing for placements, covering DS algo extensively.
+
+01:12 🎓 Introduction to Sorting Algorithms
+
+Sorting techniques are crucial for Ds algo; focus on Selection Sort, Bubble Sort, and Insertion Sort.
+
+Mention of potential interview questions related to sorting algorithms during placements.
+
+01:39 💡 Overview of Learnbay EdTech Platform
+
+Learnbay introduced as an EdTech platform for Data Science and Full Stack Development programs.
+
+Highlights include live online classes, industry-based Capstone projects certified by IBM, personal mentorship, and job assistance.
+
+02:50 🧠 Selection Sort Algorithm Explanation
+
+Explanation of Selection Sort algorithm: Select minimum in the array, swap with the first element, repeat for the unsorted portion.
+
+Step-by-step walkthrough of how the algorithm selects and places the minimum elements.
+
+06:55 🧮 Pseudo Code for Selection Sort
+
+Pseudo code for implementing Selection Sort in various programming languages (C++, Java, Python).
+
+Detailed explanation of the internal and external loops, finding minimum, and the swapping process.
+
+15:54 ⏰ Time Complexity Analysis for Selection Sort
+
+Analysis of time complexity for Selection Sort: O(N^2) in the worst, average, and best cases.
+
+Explanation of the summation of the first n natural numbers leading to the quadratic time complexity.
+
+17:44 🔄 Introduction to Bubble Sort
+
+Introduction to Bubble Sort, highlighting its approach of pushing the maximum element to the last.
+
+Contrasting Bubble Sort with Selection Sort and emphasizing the role of adjacent element swaps.
+
+19:24 🔄 Bubble Sort Implementation Steps
+
+Step-by-step walkthrough of Bubble Sort implementation: comparing and swapping adjacent elements.
+
+Iterative demonstration of how the algorithm gradually pushes the maximum element to the last.
+
+21:04 🔄 Completing Bubble Sort Steps
+
+Completion of Bubble Sort steps: ensuring the last three elements are in the correct order.
+
+Overview of the iterative process to gradually sort the entire array using Bubble Sort.
+
+22:01 📝 Bubble Sort Implementation Overview
+
+Bubble Sort involves iterating through the array multiple times, comparing adjacent elements, and swapping them if they are in the wrong order.
+
+The algorithm optimizes the loop ranges by gradually reducing the comparison range, from 0 to n-1 in the first iteration to 0 to 1 in subsequent iterations.
+
+24:01 🔄 Optimizing Bubble Sort
+
+Emphasizes the importance of not comparing elements that are already in their correct positions during the iteration.
+
+Describes the loop optimization, where the outer loop runs from n-1 to 1, and the inner loop runs from 0 to I-1, preventing unnecessary comparisons.
+
+Explains the conditional check for swapping, ensuring elements are compared only within the valid range to avoid runtime errors.
+
+27:00 🚀 Time Complexity Analysis of Bubble Sort
+
+Analyzes the time complexity of Bubble Sort, indicating that it is O(n^2) in the worst and average cases.
+
+Mentions the potential for optimization by breaking out of the loop early if no swaps are performed during an iteration.
+
+Discusses the best-case scenario where the array is already sorted, resulting in a linear time complexity of O(n).
+
+31:40 📌 Introduction to Insertion Sort
+
+Describes Insertion Sort as an algorithm that takes an element and places it in its correct position within the sorted portion of the array.
+
+Illustrates the step-by-step process of inserting each element, shifting the elements to the right until the correct position is found.
+
+Emphasizes the iterative nature of Insertion Sort, where each element is picked and placed in its sorted order.
+
+39:59 🔄 Optimizing Insertion Sort
+
+Walks through the implementation of Insertion Sort, emphasizing the leftward shifting of elements during the insertion process.
+
+Demonstrates the loop structure for comparing and swapping elements, preventing index out-of-bounds errors.
+
+Highlights the best-case scenario for Insertion Sort, where the array is already sorted, resulting in a linear time complexity of O(n).
