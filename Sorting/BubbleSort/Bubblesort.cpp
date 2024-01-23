@@ -22,12 +22,29 @@ void bubble_sort(int arr[], int n)
     }
   }
 }
+void rec_buuble(int arr[], int n)
+{
+  int i = n - 1;
+  if (i >= 0)
+  {
+    for (int j = 0; j <= i - 1; j++)
+    {
+      if (arr[j] > arr[j + 1])
+      {
+        int temp = arr[j];
+        arr[j] = arr[j + 1];
+        arr[j + 1] = temp;
+      }
+    }
+    rec_buuble(arr, n - 1);
+  }
+}
 
 int main()
 {
-  int arr[] = {43, 51, 11, 45, 53};
-  int n = 4;
-  bubble_sort(arr, n);
+  int arr[] = {93, 51, 11, 15, 63};
+  int n = 5;
+  rec_buuble(arr, n);
   for (int i = 0; i < n; i++)
   {
     cout << arr[i] << " ";
