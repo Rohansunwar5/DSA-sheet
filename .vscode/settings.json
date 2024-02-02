@@ -63,7 +63,8 @@
     "ratio": "cpp",
     "chrono": "cpp",
     "span": "cpp",
-    "type_traits": "cpp"
+    "type_traits": "cpp",
+    "valarray": "cpp"
   },
   "C_Cpp.errorSquiggles": "disabled"
 }
