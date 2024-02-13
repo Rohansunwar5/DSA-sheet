@@ -64,7 +64,10 @@
     "chrono": "cpp",
     "span": "cpp",
     "type_traits": "cpp",
-    "valarray": "cpp"
+    "valarray": "cpp",
+    "*.tcc": "cpp",
+    "list": "cpp",
+    "vector": "cpp"
   },
   "C_Cpp.errorSquiggles": "disabled"
 }

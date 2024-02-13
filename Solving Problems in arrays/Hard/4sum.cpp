@@ -51,7 +51,6 @@ vector<vector<int>> fourSum(vector<int> &nums, int target)
         long long sum = nums[i] + nums[j];
         sum += nums[k];
         sum += nums[l];
-
         if (sum == target)
         {
           vector<int> temp = {nums[i], nums[j], nums[k], nums[l]};
