@@ -67,7 +67,8 @@
     "valarray": "cpp",
     "*.tcc": "cpp",
     "list": "cpp",
-    "vector": "cpp"
+    "vector": "cpp",
+    "numeric": "cpp"
   },
   "C_Cpp.errorSquiggles": "disabled"
 }
