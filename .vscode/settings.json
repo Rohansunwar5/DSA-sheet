@@ -68,7 +68,14 @@
     "*.tcc": "cpp",
     "list": "cpp",
     "vector": "cpp",
-    "numeric": "cpp"
+    "numeric": "cpp",
+    "array": "cpp",
+    "bitset": "cpp",
+    "string_view": "cpp",
+    "initializer_list": "cpp",
+    "ranges": "cpp",
+    "stacktrace": "cpp",
+    "regex": "cpp"
   },
   "C_Cpp.errorSquiggles": "disabled"
 }
